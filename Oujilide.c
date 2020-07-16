@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main(){
+int main()
+{
     int a;                    
     int b;                    
     int r=1;                  // 余数
