@@ -1,18 +1,17 @@
 #include <stdio.h>
-#include<stdlib.h>
-int main(){
+int main()
+{
     int a;                    
     int b;                    
-    int r=1;                  // ÓàÊý
-    printf("ÊäÈëÁ½¸öÊý×Ö£º");
+    int r=1;                  // ä½™æ•°
+    printf("è¾“å…¥ä¸¤ä¸ªæ•°å­—ï¼š");
     scanf("%d %d",&a,&b);
     while(r!=0){             
         r = a % b;
         a = b;
         b = r;
     }
-    printf("×î´ó¹«Ô¼ÊýÎª£º%d\n",a); 
-    system("pause");       
+    printf("æœ€å¤§å…¬çº¦æ•°ä¸ºï¼š%d\n",a);      
     return 0;
 }
 
