@@ -1,5 +1,6 @@
 # 判断线段相交
 
+
 给定两个点:
 typedef  struct {
   double  x, y;
